@@ -2,7 +2,7 @@
 #define SENSORS_H
 #include <Arduino.h>
 
-struct SensorsData
+struct SensorsData     // dễ dàng đóng gói, đọc dữ liệu đòng bộ 
 {
     /* data */
     uint8_t nhietdotho;  //(0-255) de vua 1 byte trong CAN
